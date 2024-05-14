@@ -1,6 +1,7 @@
 # Overview
 
-## Introduction 
+## Introduction
+
 **arc.flow** is a comprehensive workflow management system designed to streamline and optimize task allocation within Access Healthcare. This application efficiently routes work tasks to associates for both production & audit checks based on their individual profiles and predefined rules.
 The Workflow and Reporting allow us to map process areas to our client’s practice management system to sequence, queue, track, report, and manage all work queues transferred to Access Healthcare.
 
@@ -8,38 +9,38 @@ The Workflow and Reporting allow us to map process areas to our client’s pract
 The purpose of this user manual is to make the transition to the interface and the functionalities of arc.flow easier for the users.
 
 ## System Requirements
+
 Before using arc.flow, please ensure that your computer or device meets the following system requirements. These requirements are essential for optimal performance and compatibility with our application.
 
-| System Requirements     | Minimum                                           | Recommended                                       |
-| ----------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| Operating System        | Windows 8 or macOS 10.12 Sierra and above         | Windows 10 or macOS 11 Big Sur and above           |
-| Processor               | Dual-core processor (Intel or AMD)                | Quad-core processor (Intel or AMD)                |
-| Memory (RAM)            | 8 GB                                              | 16 GB or more                                     |
-| Graphics                | Integrated graphics or dedicated GPU with OpenGL 2.1 support | Dedicated GPU with OpenGL 3.3 support |
-| Internet Connection     | Broadband internet connection                    | Broadband internet connection                    |
-| Browser Requirements    | Chrome, Firefox, Safari, and Microsoft Edge      | Chrome and Safari                                 |
+| System Requirements  | Minimum                                                      | Recommended                              |
+| -------------------- | ------------------------------------------------------------ | ---------------------------------------- |
+| Operating System     | Windows 8 or macOS 10.12 Sierra and above                    | Windows 10 or macOS 11 Big Sur and above |
+| Processor            | Dual-core processor (Intel or AMD)                           | Quad-core processor (Intel or AMD)       |
+| Memory (RAM)         | 8 GB                                                         | 16 GB or more                            |
+| Graphics             | Integrated graphics or dedicated GPU with OpenGL 2.1 support | Dedicated GPU with OpenGL 3.3 support    |
+| Internet Connection  | Broadband internet connection                                | Broadband internet connection            |
+| Browser Requirements | Chrome, Firefox, Safari, and Microsoft Edge                  | Chrome and Safari                        |
 
 ## Point of contact for arc.flow
 
-| Activity            | Ownership             | Email                            |
-| ------------------- | ---------------------- | -------------------------------- |
-| Project Leader      | Arun Kumar P           | Arunkumar.p@accesshealthcare.com  |
-| Project Management  | Sakkaravarthi K        | Sakkaravarth.k@accesshealthcare.com |
-
+| Activity           | Ownership       | Email                               |
+| ------------------ | --------------- | ----------------------------------- |
+| Project Leader     | Arun Kumar P    | Arunkumar.p@accesshealthcare.com    |
+| Project Management | Sakkaravarthi K | Sakkaravarth.k@accesshealthcare.com |
 
 ## Support Matrix
 
-| Activity                       | Ownership                | Email                                   |
-| -------------------------------| -------------------------| --------------------------------------- |
-| L1 Support                     | Support Team             | Arc_Apps_Support@accesshealthcare.com   |
-| L1 Support                     | Support Team             | Hanger.arcsupport@accesshealthcare.com  |
-| L2 Support                     | Karmegan C               | Karmegan.c2@accesshealthcare.com        |
-| L3 Support                     | Arunkumar P              | Arunkumar.p@accesshealthcare.com        |
-| L3 Support                     | Udhayaganesh P           | Udhayaganesh.p@accesshealthcare.com     |
-| Critical issue escalation      | Sakkaravarthi K          | Sakkaravarth.k@accesshealthcare.com     |
-
+| Activity                  | Ownership       | Email                                  |
+| ------------------------- | --------------- | -------------------------------------- |
+| L1 Support                | Support Team    | Arc_Apps_Support@accesshealthcare.com  |
+| L1 Support                | Support Team    | Hanger.arcsupport@accesshealthcare.com |
+| L2 Support                | Karmegan C      | Karmegan.c2@accesshealthcare.com       |
+| L3 Support                | Arunkumar P     | Arunkumar.p@accesshealthcare.com       |
+| L3 Support                | Udhayaganesh P  | Udhayaganesh.p@accesshealthcare.com    |
+| Critical issue escalation | Sakkaravarthi K | Sakkaravarth.k@accesshealthcare.com    |
 
 ## Accessing arc.flow
+
 **arc.flow** is a web-based application that doesn't require traditional installation. Users can access it directly through a web browser. Here's how to set up and access the application:
 
 1. **Open a Web Browser:** Launch your preferred web browser (e.g., Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge).
@@ -48,7 +49,7 @@ Before using arc.flow, please ensure that your computer or device meets the foll
 
 3. **Navigate to the Application URL:** In the address bar of your web browser, enter the URL Details provided by your organization or the web address you use to access the application.
 
-4. **New User:**  If you are using the system for the first time, please reach out to your supervisor to initiate the onboarding process as a new user in arc.flow. Once your user details are established, the offshore team (Access Healthcare) will grant you access to arc.flow.
+4. **New User:** If you are using the system for the first time, please reach out to your supervisor to initiate the onboarding process as a new user in arc.flow. Once your user details are established, the offshore team (Access Healthcare) will grant you access to arc.flow.
 
 5. **Login Credentials:** The system will verify your credentials using Single Sign-On (SSO) login, which is activated for your company's domain.
 
@@ -69,19 +70,20 @@ While arc.flow is primarily designed for web browsers, it does not support mobil
 
 ## Roles and definition in arc.flow
 
-| Role Name                         | Definition                                                                                                 |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Application Administrator         | Application administrators oversee system setup, user management, security, training, and maintenance to ensure smooth workflow operations |
-| Manager/Team Leader/Director      | Configure basic setup to use the application, new user onboarding, create team workflows, set targets, assign tasks, monitor progress, and ensure timely completion. |
-| Entry User                        | Production users execute tasks within workflows, follow instructions, provide feedback, and help achieve workflow goals. |
-| Audit User                        | Audit users review and verify workflows, ensure compliance, and maintain data accuracy through inspections. |
-| Management                        | Management oversees strategy, resources, and overall performance using reports and analytics to drive workflow efficiency and achieve organizational goals. |
+| Role Name                    | Definition                                                                                                                                                           |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Application Administrator    | Application administrators oversee system setup, user management, security, training, and maintenance to ensure smooth workflow operations                           |
+| Manager/Team Leader/Director | Configure basic setup to use the application, new user onboarding, create team workflows, set targets, assign tasks, monitor progress, and ensure timely completion. |
+| Entry User                   | Production users execute tasks within workflows, follow instructions, provide feedback, and help achieve workflow goals.                                             |
+| Audit User                   | Audit users review and verify workflows, ensure compliance, and maintain data accuracy through inspections.                                                          |
+| Management                   | Management oversees strategy, resources, and overall performance using reports and analytics to drive workflow efficiency and achieve organizational goals.          |
 
 ## Getting Started
 
 In this section, we'll guide you through the essential steps to get started with Arc. Flow. Whether you are a new user or returning after a break, this section will help you set up your account, understand the user interface, and ensure a smooth onboarding experience.
 
 ### Setup
+
 **Description:**
 
 The Setup feature in arc. flow is essential for configuring and customizing the system according to your organization's needs. It involves defining user roles, permissions, workflow templates, and other settings to optimize the system's functionality.
@@ -95,6 +97,7 @@ The Setup feature in arc. flow is essential for configuring and customizing the 
 • Streamline processes by creating standardized workflow templates.
 
 **Common Issues:**
+
 1. Incorrectly configured user permissions, leading to access issues.
 
 2. Mapping incorrect values in the master setup will result in inaccurate outputs within the arc.flow.
@@ -103,14 +106,13 @@ The Setup feature in arc. flow is essential for configuring and customizing the 
 
 To access the setup, the user must click on the .setup tile.
 
-![setup](/img/arflow/arc-setup.png)
+![ArcSetup](http://10.20.76.94:7000/GetFile/1/9_arc-setup.png)
 
 ### How to set up a user in arc.flow?
 
 **Description:**
 
 The "User Master Screen" feature in the arc.flow will be enabled by offshore team based on the request raised by onshore team. Once the module is completed, we will add the detailed explanation in this section.
-
 
 ### How to create a Sub-client group?
 
@@ -120,11 +122,11 @@ The “Sub client Group” Management feature within the arc.flow allows users t
 
 **How to access?**
 
-To access the Group of Sub-clients, the user must click on .setup>Allocation setup>Group of Sub-clients. 
+To access the Group of Sub-clients, the user must click on .setup>Allocation setup>Group of Sub-clients.
 
 **Step-by-step process:**
 
-![subclientgroup](/img/arflow/subclientgroup.png)
+![SubClientGroup](http://10.20.76.94:7000/GetFile/1/11_subclientgroup.png)
 
 **Enter the "Sub-client Group Name":**
 
@@ -162,11 +164,11 @@ The "User Group" feature in the arc.flow enables users to associate individual u
 
 **How to access?**
 
-To access the User Group master, the user must click on .setup>Allocation Setup>User Group Master. 
+To access the User Group master, the user must click on .setup>Allocation Setup>User Group Master.
 
 **Step-by-step process:**
 
-![usergroup](/img/arflow/usergroupmaster.png)
+![UserGroup](http://10.20.76.94:7000/GetFile/1/12_usergroupmaster.png)
 
 **Enter the "User Group Name":**
 
@@ -196,11 +198,11 @@ The "Queue Master" is a feature in the arc.flow allows for the creation of queue
 
 **How to access?**
 
-To access the Queue master, the user must click on .setup>Allocation Setup>Queue Master. 
+To access the Queue master, the user must click on .setup>Allocation Setup>Queue Master.
 
 **Step-by-step process:**
 
-![queuemaster](/img/arflow/queuemaster.png)
+![queuemaster](http://10.20.76.94:7000/GetFile/1/13_queuemaster.png)
 
 **Enter the "Queue Name":**
 
@@ -214,18 +216,18 @@ To access the Queue master, the user must click on .setup>Allocation Setup>Queue
 
 • Select an item condition from the dropdown. Item conditions are typically hardcoded and include operators such as “! =" (not equal to), "<" (less than), or ">" (greater than).
 
-| Item condition                    | Description                                                                                                 |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| != ( Not Equal to)	            | This condition can be used when the values in the display column (For e.g., Created date) dropdown does not equal to the value in Filter value dropdown.
-| < (Less than)		            | This condition can be used when the values in the display column (For e.g., Created date) dropdown less than to the value in Filter value dropdown.
-| <= (Less than Equal to)	    | This condition can be used when the values in the display column (For e.g., Created date) dropdown less than equal to the value in Filter value dropdown.
-| = (Equal to)		            | This condition can be used when the values in the display column (For e.g., Created date) dropdown equal to the value in Filter value dropdown.
-| > (Greater than)	            | This condition can be used when the values in the display column (For e.g., Created date) dropdown greater than the value in Filter value dropdown.
-| >= (Greater than Equal to)	    | This condition can be used when the values in the display column (For e.g., Created date) dropdown greater than equal to the value in Filter value dropdown.
-| Begins with		            | This condition can be used when the values in the display column (For e.g., shift) dropdown begins with the value in Filter value dropdown.
-| End with		            | This condition can be used when the values in the display column (For e.g., shift) dropdown ends with the value in Filter value dropdown.
-| Contains		            | This condition can be used when the values in the display column (For e.g., shift) dropdown contains the value in Filter value dropdown.
-| Does not contain		    | This condition can be used when the values in the display column (For e.g., shift) dropdown does not contains the value in Filter value dropdown.
+| Item condition             | Description                                                                                                                                                  |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| != ( Not Equal to)         | This condition can be used when the values in the display column (For e.g., Created date) dropdown does not equal to the value in Filter value dropdown.     |
+| < (Less than)              | This condition can be used when the values in the display column (For e.g., Created date) dropdown less than to the value in Filter value dropdown.          |
+| <= (Less than Equal to)    | This condition can be used when the values in the display column (For e.g., Created date) dropdown less than equal to the value in Filter value dropdown.    |
+| = (Equal to)               | This condition can be used when the values in the display column (For e.g., Created date) dropdown equal to the value in Filter value dropdown.              |
+| > (Greater than)           | This condition can be used when the values in the display column (For e.g., Created date) dropdown greater than the value in Filter value dropdown.          |
+| >= (Greater than Equal to) | This condition can be used when the values in the display column (For e.g., Created date) dropdown greater than equal to the value in Filter value dropdown. |
+| Begins with                | This condition can be used when the values in the display column (For e.g., shift) dropdown begins with the value in Filter value dropdown.                  |
+| End with                   | This condition can be used when the values in the display column (For e.g., shift) dropdown ends with the value in Filter value dropdown.                    |
+| Contains                   | This condition can be used when the values in the display column (For e.g., shift) dropdown contains the value in Filter value dropdown.                     |
+| Does not contain           | This condition can be used when the values in the display column (For e.g., shift) dropdown does not contains the value in Filter value dropdown.            |
 
 **Select a "Filter Value":**
 
@@ -247,7 +249,7 @@ To access the Queue master, the user must click on .setup>Allocation Setup>Queue
 
 **Description:**
 
-The "Priority Setup" feature is vital in the arc.flow allows users to override queue-based claim allocation. Supervisors can set priorities for claims daily (Change if required), enabling the selection and completion of claims before others based on predefined conditions. 
+The "Priority Setup" feature is vital in the arc.flow allows users to override queue-based claim allocation. Supervisors can set priorities for claims daily (Change if required), enabling the selection and completion of claims before others based on predefined conditions.
 
 **How to access?**
 
@@ -255,7 +257,7 @@ To access the priority setup, the user must click on .setup>Allocation setup>Pri
 
 **Step-by-step process:**
 
-![Prioritysetup](/img/arflow/prioritysetup.png)
+![PrioritySetup](http://10.20.76.94:7000/GetFile/1/14_prioritysetup.png)
 
 **Select a Sub-client Group:**
 
@@ -279,11 +281,11 @@ The "Ramp-up Setup Screen" is a feature in the arc.flow facilitates the configur
 
 **How to access?**
 
-To access the Ramp-up setup, the user must click on .setup>Ramp-up setup. 
+To access the Ramp-up setup, the user must click on .setup>Ramp-up setup.
 
 **Step-by-step process:**
 
-![Rampsetup](/img/arflow/rampupsetup.png)
+![RamupSetup](http://10.20.76.94:7000/GetFile/1/15_rampupsetup.png)
 
 **Creating a Ramp-up Name:**
 
@@ -291,7 +293,7 @@ To access the Ramp-up setup, the user must click on .setup>Ramp-up setup.
 
 • Begin by clicking the "Add" button to create a new Ramp Name.
 
-![Rampup](/img/arflow/rampuppopup.png)
+![Ramuppopup](http://10.20.76.94:7000/GetFile/1/16_rampuppopup.png)
 
 • Once in the creation screen, enter a name for the Ramp-up in the provided text field.
 
@@ -317,7 +319,7 @@ To access the Ramp-up setup, the user must click on .setup>Ramp-up setup.
 
 • Click the "Add" button to add details for a specific week within the Ramp-up Name.
 
-![Ramppagesetup](/img/arflow/rampagesetup.png)
+![RampageSetup](http://10.20.76.94:7000/GetFile/1/17_rampagesetup.png)
 
 **Enter Week Details:**
 
@@ -345,17 +347,17 @@ The "Issue Code Master" is a feature in the arc.flow assists in updating issue c
 
 **How to access?**
 
-To access the Issue code master, the user must click on .setup>Issue code setup>Issue Code Master. 
+To access the Issue code master, the user must click on .setup>Issue code setup>Issue Code Master.
 
 **Step-by-step process:**
 
-![Issuecode](/img/arflow/issuecodestatuscodemaster.png)
+![IssueCode](http://10.20.76.94:7000/GetFile/1/19_issuecodestatuscodemaster.png)
 
 **Click on the "Add" button:**
 
 • Start by clicking the "Add" button to initiate the creation of an Issue Code Master.
 
-![Issuecodemaster](/img/arflow/issuecodemaster.png)
+![IssueCodemaster](http://10.20.76.94:7000/GetFile/1/18_issuecodemaster.png)
 
 **Enter the "Name":**
 
@@ -385,11 +387,11 @@ The "Audit Error parameter/master" feature within the arc.flow enables users to 
 
 **How to access?**
 
-To access the Audit Error Master, the user must click on .setup>Issue code setup>Audit Error Master. 
+To access the Audit Error Master, the user must click on .setup>Issue code setup>Audit Error Master.
 
 **Step-by-step process:**
 
-![newparentname](/img/arflow/newparenterrorname.png)
+![newparentname](http://10.20.76.94:7000/GetFile/1/20_newparenterrorname.png)
 
 **Creating a New Parent Error Name:**
 
@@ -397,7 +399,7 @@ To access the Audit Error Master, the user must click on .setup>Issue code setup
 
 • Begin by clicking the "Add Parent Name" button to create a new Parent Error Name.
 
-![auditerrormaster](/img/arflow/auditerrormaster.png)
+![auditerrormaster](http://10.20.76.94:7000/GetFile/1/21_auditerrormaster.png)
 
 **Enter the "New Parent Error Name" in the Popup:**
 
@@ -415,7 +417,7 @@ To access the Audit Error Master, the user must click on .setup>Issue code setup
 
 • To create a new Audit Error Master Name, click the "New" button.
 
-![auditerrormaster2](/img/arflow/auditerrormaster2.png)
+![auditerrormaster2](http://10.20.76.94:7000/GetFile/1/22_auditerrormaster2.png)
 
 **Enter the Name of the Error in the Popup:**
 
@@ -459,7 +461,7 @@ To access the Audit% configuration, the user must click on .setup>Audit setup>Au
 
 **Step-by-step process:**
 
-![auditsetup](/img/arflow/auditsetup.png)
+![auditsetup](http://10.20.76.94:7000/GetFile/1/23_auditsetup.png)
 
 Please choose the most suitable audit setup option based on their specific requirements and the customization level needed in the audit process.
 
@@ -470,7 +472,7 @@ Please choose the most suitable audit setup option based on their specific requi
 
 • Ensures consistency in the audit process.
 
-![auditsetup1](/img/arflow/auditsetup1.png)
+![auditsetup1](http://10.20.76.94:7000/GetFile/1/24_auditsetup1.png)
 
 **Select Sub-Client Group:**
 
@@ -500,7 +502,7 @@ This results in 25 tasks being randomly selected for audit from the sub-client g
 
 • Allows fine-grained control, including specifying criteria like Sub Client Group, Kick code, and Audit Percentage.
 
-![auditsetup2](/img/arflow/auditsetup2.png)
+![auditsetup2](http://10.20.76.94:7000/GetFile/1/25_auditsetup2.png)
 
 **Select Sub-Client Group:**
 
@@ -536,7 +538,7 @@ This results in 25 tasks being randomly selected for audit from the sub-client g
 
 • Enables a more personalized approach to audits based on unique needs.
 
-![auditsetup3](/img/arflow/auditsetup3.png)
+![auditsetup3](http://10.20.76.94:7000/GetFile/1/26_auditsetup3.png)
 
 **Select Sub-Client Group:**
 
@@ -562,17 +564,17 @@ The "Inbox Module" is a pivotal component within the arc.flow, providing users w
 
 **How to access?**
 
-To access the inbox, the user must click on .inbox. 
+To access the inbox, the user must click on .inbox.
 
 **Step-by-step process:**
 
-![Inbox](/img/arflow/inbox.png)
+![Inbox](http://10.20.76.94:7000/GetFile/1/27_inbox.png)
 
 **Click on the Claim Type:**
 
 • Begin by clicking on the claim type, which initiates the update process for production details. This action opens the "Process Claim" popup.
 
-![Inboxpopup](/img/arflow/inboxpopup.png)
+![Inboxpopup](http://10.20.76.94:7000/GetFile/1/28_Inboxpopup.png)
 
 **Select the Call Type:**
 
@@ -582,7 +584,7 @@ To access the inbox, the user must click on .inbox.
 
 • If "Non-Callable" is selected, claims details will not involve a call; resolution will happen through documentation.
 
-•  If "Review" is selected, claims details can be resolved by call or documentation.
+• If "Review" is selected, claims details can be resolved by call or documentation.
 
 **Select the Issue Code:**
 
@@ -630,27 +632,27 @@ To access the inbox, the user must click on .inbox.
 
 • After the appropriate action, the claim information will be displayed in a grid.
 
-![Inboxpopup](/img/arflow/inboxpopup2.png)
- 
+![Inboxpopup2](http://10.20.76.94:7000/GetFile/1/29_Inboxpopup2.png)
+
 **Search Using Filter Box:**
 
 • To search for specific claim values within the grid, use the filter box to apply filtering conditions and search for the desired information.
 
 ## How do I access my completed work or claims allocated to me in arc.flow?
 
-** Description:** 
+** Description:**
 
 The ".Complete Module" is a core component of the arc. flow empowers users to access, and review completed production details. In addition to viewing the finalized work, this module offers the flexibility to make necessary modifications or updates to production records, ensuring data accuracy and quality control.
 
-** How to access?** 
+** How to access?**
 
-To access the .completed tile, the user must click on .completed. 
+To access the .completed tile, the user must click on .completed.
 
-** Step-by-step process:** 
+** Step-by-step process:**
 
-![Completed](/img/arflow/completed.png)
+![Completed](http://10.20.76.94:7000/GetFile/1/30_completed.png)
 
-![Completed1](/img/arflow/completed1.png)
+![Completed1](http://10.20.76.94:7000/GetFile/1/31_completed1.png)
 
 **Select "Start Date" and "End Date":**
 
@@ -664,7 +666,7 @@ To access the .completed tile, the user must click on .completed.
 
 • Click on the claim type to modify the production details for a specific claim type. This action opens the "Modify Claim" popup for data entry.
 
-![Completed2](/img/arflow/completed2.png)
+![Completed2](http://10.20.76.94:7000/GetFile/1/32_completed2.png)
 
 **Select the Call Type:**
 
@@ -730,29 +732,29 @@ To access the .completed tile, the user must click on .completed.
 
 • After the appropriate action, the claim information will be displayed in a grid.
 
-![Completed3](/img/arflow/completed3.png)
+![Completed3](http://10.20.76.94:7000/GetFile/1/33_completed3.png)
 
 ## How do I audit a completed claim/Work?
 
 **Description:**
 
-The "Audit Inbox Screen" is a central component within arc.flow, providing audit users with a dedicated workspace to review and assess production tickets completed by production agents. Audit users can thoroughly examine each claim and mark errors or discrepancies as part of the auditing process. The audit allocation will be based on the audit configuration (Overall, custom, and User) done by the supervisor as mentioned in the Audit configuration. 
+The "Audit Inbox Screen" is a central component within arc.flow, providing audit users with a dedicated workspace to review and assess production tickets completed by production agents. Audit users can thoroughly examine each claim and mark errors or discrepancies as part of the auditing process. The audit allocation will be based on the audit configuration (Overall, custom, and User) done by the supervisor as mentioned in the Audit configuration.
 
 **How to access?**
 
-To access the Audit Inbox, the user must click on .audit inbox. 
+To access the Audit Inbox, the user must click on .audit inbox.
 
 **Step-by-step process:**
 
-![auditinbox](/img/arflow/inbox.png)
+![auditinbox](http://10.20.76.94:7000/GetFile/1/27_inbox.png)
 
-![auditinbox](/img/arflow/auditinbox1.png)
+![auditinbox](http://10.20.76.94:7000/GetFile/1/34_auditinbox1.png)
 
 **Click on the Claim Number:**
 
 • The Auditor should click on the claim number to update audit details. This action opens the "Audit Call Sheet" popup for capturing audit details.
 
-![auditinbox](/img/arflow/auditinbox2.png)
+![auditinbox](http://10.20.76.94:7000/GetFile/1/86_auditinbox2.png)
 
 **View Ticket Information in Grid Format:**
 
@@ -790,7 +792,7 @@ To access the Audit Inbox, the user must click on .audit inbox.
 
 • Once the audit is complete and the details are saved, the Auditor can click the "Close" button to close the "Audit Call Sheet" window.
 
-##  How do I acknowledge my audit feedback?
+## How do I acknowledge my audit feedback?
 
 **Description:**
 
@@ -798,11 +800,11 @@ The "Audit Feedback Screen" in arc.flow facilitates communication and collaborat
 
 **How to access?**
 
-The user must click the .inbox>Audit Feedback popup to access the Audit feedback. 
+The user must click the .inbox>Audit Feedback popup to access the Audit feedback.
 
 **Step-by-step process:**
 
-![auditinbox](/img/arflow/auditfeedback.png)
+![auditfeedback](http://10.20.76.94:7000/GetFile/1/35_auditfeedback.png)
 
 **Select the Start Date and End Date:**
 
@@ -844,11 +846,11 @@ The "Allocate Module" is an integral part of the arc.flow empowers team leaders 
 
 **How to access?**
 
-To access the .allocate, the user must click on .allocate. 
+To access the .allocate, the user must click on .allocate.
 
 **Step-by-step process:**
 
-![allocate](/img/arflow/inbox.png)
+![alloacate](http://10.20.76.94:7000/GetFile/1/27_inbox.png)
 
 Below listed are the parts of the .allocate module.
 
@@ -872,11 +874,11 @@ This enables precise and controlled allocation to ensure the correct agent handl
 
 **How to access?**
 
-The user must click on .allocate>Manual allocation to access the manual allocation. 
+The user must click on .allocate>Manual allocation to access the manual allocation.
 
 **Step-by-step process:**
 
-![manualallocation](/img/arflow/queuefilter.png)
+![manualallocation](http://10.20.76.94:7000/GetFile/1/36_queuefilter.png)
 
 **Select a Sub-client from the Dropdown:**
 
@@ -944,11 +946,11 @@ The "Release Allocation Screen" is a crucial element of the arc.flow allows user
 
 **How to access?**
 
-The user must click on .allocate>Release allocation to access the release allocation. 
+The user must click on .allocate>Release allocation to access the release allocation.
 
 **Step-by-step process:**
 
-![releaseallocation](/img/arflow/releaseallocation.png)
+![releaseallocation](http://10.20.76.94:7000/GetFile/1/37_releaseallocation.png)
 
 **Select Start and End Date:**
 
@@ -986,7 +988,7 @@ To access the re-allocation, the user must click on .allocate> Reallocation.
 
 **Step-by-step process:**
 
-![reallocation](/img/arflow/releaseallocation1.png)
+![reallocation](http://10.20.76.94:7000/GetFile/1/38_releaseallocation1.png)
 
 **Select Start and End Date:**
 
@@ -1040,19 +1042,19 @@ The "Issue Log" feature is an integral part of the arc.flow designed to facilita
 
 **How to access?**
 
-To access the .issue log, the user must click on .issue log. 
+To access the .issue log, the user must click on .issue log.
 
 **Step-by-step process:**
 
-![issuelog](/img/arflow/inbox.png)
+![issuelog](http://10.20.76.94:7000/GetFile/1/27_inbox.png)
 
-![issuelog](/img/arflow/issuelog.png)
+![issuelog](http://10.20.76.94:7000/GetFile/1/39_issuelog.png)
 
 **Expand Claim Details:**
 
 • Expand the claim details where the Associate notes are displayed to update the Issue Log Notes.
 
-![issuelog](/img/arflow/issuelog1.png)
+![issuelog](http://10.20.76.94:7000/GetFile/1/40_issuelog1.png)
 
 **Enter Issue Log Notes:**
 
@@ -1090,9 +1092,9 @@ To access the .multi touch, the user must click on .multi touch.
 
 **Step-by-step process:**
 
-![multitouch](/img/arflow/inbox.png)
+![multitouch](http://10.20.76.94:7000/GetFile/1/27_inbox.png)
 
-![multitouch](/img/arflow/multitouch.png)
+![multitouch](http://10.20.76.94:7000/GetFile/1/41_multitouch.png)
 
 **Select Sub-client:**
 
@@ -1116,7 +1118,7 @@ To access the .multi touch, the user must click on .multi touch.
 
 **Submit Client Feedback:**
 
-•  Click the "Submit" button in the "Client Feedback" popup to save the provided feedback.
+• Click the "Submit" button in the "Client Feedback" popup to save the provided feedback.
 
 **Export to XLS:**
 
@@ -1152,7 +1154,7 @@ What are the steps involved in the rebuttal process:
 
 **4.Audit user reviews the feedback and accepts or rejects the rebut:**
 
-•  If accepted, the record moves to the Audit Supervisor queue.
+• If accepted, the record moves to the Audit Supervisor queue.
 
 • If rejected, the workflow ends.
 
@@ -1192,9 +1194,9 @@ What are the steps involved in the rebuttal process:
 
 To rebut audit feedback, the user must click on.Inbox
 
-![multitouch](/img/arflow/inbox.png)
+![multitouch](http://10.20.76.94:7000/GetFile/1/27_inbox.png)
 
-![auditdispute](/img/arflow/auditdispute.png)
+![auditdispute](http://10.20.76.94:7000/GetFile/1/44_auditdispute.png)
 
 • After viewing the audit feedback, select "Accept" or “Review” the feedback.
 
@@ -1210,9 +1212,9 @@ To rebut audit feedback, the user must click on.Inbox
 
 To rebut audit feedback, the user must click on .quality
 
-![auditdispute](/img/arflow/auditdispute1.png)
+![auditdispute](http://10.20.76.94:7000/GetFile/1/42_auditdispute1.png)
 
-![auditdispute](/img/arflow/auditdispute2.png)
+![auditdispute](http://10.20.76.94:7000/GetFile/1/43_auditdispute2.png)
 
 **For "Feedback Accepted" Category:**
 
@@ -1240,9 +1242,9 @@ To rebut audit feedback, the user must click on .quality
 
 To rebut audit feedback, the user must click on .audit inbox.
 
-![auditinbox3](/img/arflow/auditinbox3.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/47_auditinbox3.png)
 
-![auditdispute](/img/arflow/auditdispute3.png)
+![auditdispute](http://10.20.76.94:7000/GetFile/1/46_auditdispute3.png)
 
 **Accept Rebuttal:**
 
@@ -1264,9 +1266,9 @@ To rebut audit feedback, the user must click on .audit inbox.
 
 To rebut audit feedback, the user must click on .quality.
 
-![rebuttal](/img/arflow/rebuttalrecords1.png)
+![rebuttal](http://10.20.76.94:7000/GetFile/1/48_rebuttalrecords1.png)
 
-![rebuttal](/img/arflow/rebuttalrecords2.png)
+![rebuttal](http://10.20.76.94:7000/GetFile/1/49_rebuttalrecords2.png)
 
 **Accept Rebuttal:**
 
@@ -1283,13 +1285,14 @@ To rebut audit feedback, the user must click on .quality.
 **In summary, Quality GL can either accept the rebuttal and send the record for re-audit or reject the rebuttal, forwarding the record to the Entry team leader for additional review.**
 
 ### How do I check rebuttal records reviewed by the audit Supervisor?
+
 **How to access?**
 
 To rebut audit feedback, the user must click on .quality
 
-![auditinbox3](/img/arflow/rebuttalrecords1.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/48_rebuttalrecords1.png)
 
-![auditinbox3](/img/arflow/rebuttalrecords3.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/50_rebuttalrecords3.png)
 
 **Accept QA Lead Review:**
 
@@ -1311,9 +1314,9 @@ To rebut audit feedback, the user must click on .quality
 
 To rebut audit feedback, the user must click on .quality
 
-![auditinbox3](/img/arflow/rebuttalrecords1.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/48_rebuttalrecords1.png)
 
-![auditinbox3](/img/arflow/rebuttalrecords3.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/50_rebuttalrecords3.png)
 
 **Accept QA Lead Review:**
 
@@ -1335,9 +1338,9 @@ To rebut audit feedback, the user must click on .quality
 
 To rebut audit feedback, the user must click on .quality
 
-![auditinbox3](/img/arflow/rebuttalrecords1.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/50_rebuttalrecords3.png)
 
-![auditinbox3](/img/arflow/rebuttalrecords5.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/51_rebuttalrecords5.png)
 
 **Accept Rebuttal:**
 
@@ -1359,9 +1362,9 @@ If the Quality Manager chooses to accept the rebuttal, it indicates their agreem
 
 To rebut audit feedback, the user must click on .quality
 
-![auditinbox3](/img/arflow/rebuttalrecords1.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/48_rebuttalrecords1.png)
 
-![auditinbox3](/img/arflow/rebuttalrecords6.png)
+![auditinbox3](http://10.20.76.94:7000/GetFile/1/52_rebuttalrecords6.png)
 
 • When Training team user Rebuttal records are displayed under the "Training Team Rebuttal Review" menu, the Training user can update their justification or comments regarding the rebuttal record using the text box provided on the screen.
 
@@ -1376,7 +1379,7 @@ Following is the list of reports modules in arc.flow,**
 
 • Work allocation
 
-•  Status Report
+• Status Report
 
 • TAT Report
 
@@ -1393,10 +1396,10 @@ The "Voice vs. Non-Voice Report" is a specialized type of report within an arc.f
 **How to access?**
 
 To access the Report, the user must click on .reports> voice vs non-voice.
- 
+
 **Step-by-step process:**
 
-![Report](/img/arflow/report1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/53_report1.png)
 
 **To generate a report, follow these steps:**
 
@@ -1416,11 +1419,11 @@ The "Completed Report" allows users to identify how production users have handle
 
 **How to access?**
 
-To access the Report, the user must click on it.reports> Other reports> Completed call type report. 
+To access the Report, the user must click on it.reports> Other reports> Completed call type report.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/54_report2.png)
 
 • Select the report name from the dropdown. Choose "Completed Call Type Report."
 
@@ -1431,7 +1434,6 @@ To access the Report, the user must click on it.reports> Other reports> Complete
 • You should be able to generate the report in "XLS" format.
 
 • You can search for specific values using the filter box in the grid.
-
 
 #### Production with target report.
 
@@ -1445,7 +1447,7 @@ To access the Report, the user must click on .reports> Production with Target.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report3.png)
+![Report](http://10.20.76.94:7000/GetFile/1/55_report3.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1473,7 +1475,7 @@ The user must click on .reports> Issue code-wise production/audit to access the 
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report4.png)
+![Report](http://10.20.76.94:7000/GetFile/1/56_report4.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1497,7 +1499,7 @@ To access the Report, the user must click on .reports> Other reports> Process co
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report5.png)
+![Report](http://10.20.76.94:7000/GetFile/1/57_report5.png)
 
 • Select the report name from the dropdown, specifically "Process Completed Call Type Report."
 
@@ -1521,7 +1523,7 @@ To access the Report, the user must click on .reports> My Process is completed.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report6.png)
+![Report](http://10.20.76.94:7000/GetFile/1/58_report6.png)
 
 • Choose a start date and an end date using the calendar picker.
 
@@ -1545,7 +1547,7 @@ To access the Report, the user must click on .reports> Allocation for users.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report2.1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/59_report2.1.png)
 
 • Select the start date and end date using the calendar picker.
 
@@ -1567,7 +1569,7 @@ To access the Report, the user must click on .reports> non-allocated.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report2.2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/60_report2.2.png)
 
 • Choose the start date and end date using the calendar picker.
 
@@ -1589,7 +1591,7 @@ To access the Report, the user must click on .reports> Rework Claims.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report2.3.png)
+![Report](http://10.20.76.94:7000/GetFile/1/61_report2.3.png)
 
 • Select the desired start date and end date using the calendar picker.
 
@@ -1611,7 +1613,7 @@ To access the Report, the user must click on .reports> Allocation status.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report2.4.png)
+![Report](http://10.20.76.94:7000/GetFile/1/62_report2.4.png)
 
 • Select the desired start date and end date using the calendar picker.
 
@@ -1633,7 +1635,7 @@ To access the Report, the user must click on .reports> Inventory status report
 
 **Step-by-step process:**
 
-![Report](/img/arflow/Inventorystatusreport.png)
+![Report](http://10.20.76.94:7000/GetFile/1/63_Inventorystatusreport.png)
 
 • Select the desired start date and end date using the calendar picker.
 
@@ -1642,7 +1644,6 @@ To access the Report, the user must click on .reports> Inventory status report
 • You should be able to generate the report in "XLS" format and also group using the filter area based on the required information.
 
 • Search for values using the filter box in the grid to refine the report data.
-
 
 ### Quality Report
 
@@ -1672,7 +1673,7 @@ The user must click on .reports>Audit allocated report to access the Report.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report3.1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/64_report3.1.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1690,17 +1691,15 @@ The "Audit Parameter report" enables users, particularly auditors to generate an
 
 The user must click on .reports>Audit Parameter report to access the Report.
 
-
 **Step-by-step process:**
 
-![Report](/img/arflow/report3.2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/65_report3.2.png)
 
 • Utilize the calendar picker to choose both the start and end dates.
 
 • Initiate the report generation by clicking the "Submit" button. The resulting report will be presented in grid format.
 
 • Employ the filter box within the grid to search for specific values.
-
 
 #### Audit report.
 
@@ -1714,7 +1713,7 @@ The user must click on .reports>Audit report to access the Report.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report3.3.png)
+![Report](http://10.20.76.94:7000/GetFile/1/66_report3.3.png)
 
 • Select the report type "Associate wise" or "QA wise.”
 
@@ -1738,7 +1737,7 @@ To access the Report, the user must click on .reports>Eligible Audit count.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report3.4.png)
+![Report](http://10.20.76.94:7000/GetFile/1/67_report3.4.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1762,7 +1761,7 @@ The user must click on .reports>QC Report to access the Report.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report3.5.png)
+![Report](http://10.20.76.94:7000/GetFile/1/68_report3.5.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1786,10 +1785,9 @@ The "Invoice History report" allows users to generate and access detailed inform
 
 To access the Report, the user must click on .reports> Invoice history.
 
-
 **Step-by-step process:**
 
-![Report](/img/arflow/report4.1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/69_report4.1.png)
 
 • Enter the claim number in the provided field.
 
@@ -1809,7 +1807,7 @@ To access the Report, the user must click on .reports> Import status.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report4.2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/70_report4.2.png)
 
 • Select the start date and end date from the calendar picker.
 
@@ -1833,7 +1831,7 @@ To access the Report, the user must click on .reports> Claim Status.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report4.3.png)
+![Report](http://10.20.76.94:7000/GetFile/1/71_report4.3.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1855,7 +1853,7 @@ The user must click on .reports> Import report to access the import report.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report4.4.png)
+![Report](http://10.20.76.94:7000/GetFile/1/72_report4.4.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -1879,7 +1877,7 @@ To access the report, the user must click on .reports> Average TAT Completed.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report5.1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/73_report5.1.png)
 
 • Select the report type as either "Date Wise" or "Client Wise."
 
@@ -1903,7 +1901,7 @@ The user must click on .reports> TAT Report to access the TAT report.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report5.2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/74_report5.2.png)
 
 • Select the report type as either "Date Wise" or "Client Wise."
 
@@ -1929,7 +1927,7 @@ The user must click on .reports > Production reports
 
 **Step-by-step process:**
 
-![Report](/img/arflow/productiondashboard.png)
+![Report](http://10.20.76.94:7000/GetFile/1/75_productiondashboard.png)
 
 • Choose a start date and an end date using the calendar picker.
 
@@ -1953,9 +1951,9 @@ The user must click on .reports > Quality
 
 **Step-by-step process:**
 
-![Report](/img/arflow/qualityreport1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/76_qualityreport1.png)
 
-![Report](/img/arflow/qualityreport2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/77_qualityreport2.png)
 
 • Select type "Associate wise" or "QA wise" or "sub client wise"
 
@@ -1975,7 +1973,7 @@ The user must click on .reports > TAT reports
 
 **Step-by-step process:**
 
-![Report](/img/arflow/TATreport.png)
+![Report](http://10.20.76.94:7000/GetFile/1/78_TATreport.png)
 
 • Select type "Client wise"or "Date wise" or "Issue code"
 
@@ -1995,7 +1993,7 @@ The user must click on .reports > work allocation
 
 **Step-by-step process:**
 
-![Report](/img/arflow/volume dashboard.png)
+![Report](http://10.20.76.94:7000/GetFile/1/79_volume dashboard.png)
 
 • Choose a start date and an end date using the calendar picker.
 
@@ -2013,9 +2011,9 @@ The user must click on .reports > Production reports
 
 **Step-by-step process:**
 
-![Report](/img/arflow/issuecodereport.png) 
+![Report](http://10.20.76.94:7000/GetFile/1/80_issuecodereport.png)
 
-![Report](/img/arflow/issuelogreport.png)
+![Report](http://10.20.76.94:7000/GetFile/1/81_issuelogreport.png)
 
 • Choose a start date and an end date using the calendar picker.
 
@@ -2033,7 +2031,7 @@ To access the Report, the user must click on .reports > Dashboard > Multitouch
 
 **Step-by-step process:**
 
-![Report](/img/arflow/multitouchreport.png)
+![Report](http://10.20.76.94:7000/GetFile/1/82_multitouchreport.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -2051,7 +2049,7 @@ To access the Report, the user must click on .reports > status
 
 **Step-by-step process:**
 
-![Report](/img/arflow/importstatusreport.png)
+![Report](http://10.20.76.94:7000/GetFile/1/83_importstatusreport.png)
 
 • Select the start date and end date in the calendar picker.
 
@@ -2071,7 +2069,7 @@ The user must click on .reports > Production CP rebuttal summary to access the R
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report7.1.png)
+![Report](http://10.20.76.94:7000/GetFile/1/84_report7.1.png)
 
 • Choose a start date and an end date using the calendar picker.
 
@@ -2081,19 +2079,19 @@ The user must click on .reports > Production CP rebuttal summary to access the R
 
 • Search for specific values in the grid by using the filter box.
 
-####	QA rebuttal summary
+#### QA rebuttal summary
 
 **Description:**
 
-The "QA Wise Rebuttal Summary Report” lets users view and analyze rebuttal information categorized by Quality Assurance (QA) personnel. This report provides insights into the QA-wise rebuttal status (Accepted or Rejected) and includes an acceptance score for claims. 
+The "QA Wise Rebuttal Summary Report” lets users view and analyze rebuttal information categorized by Quality Assurance (QA) personnel. This report provides insights into the QA-wise rebuttal status (Accepted or Rejected) and includes an acceptance score for claims.
 
 **How to access?**
 
-To access the Report, the user must click on .reports > QA  rebuttal summary.
+To access the Report, the user must click on .reports > QA rebuttal summary.
 
 **Step-by-step process:**
 
-![Report](/img/arflow/report7.2.png)
+![Report](http://10.20.76.94:7000/GetFile/1/85_report7.2.png)
 
 • Choose a start date and an end date using the calendar picker.
 
@@ -2168,74 +2166,3 @@ To access the Report, the user must click on .reports > QA  rebuttal summary.
 **Auditors can audit claims by accessing the following:**
 
 The .audit inbox tile. This is where auditors can review and audit claims.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
